@@ -14,7 +14,6 @@
 
 **Thoughts:** Still not entirely sure how the problem works. Getting a little hung up on how it understands what values to look for. The solution involves an if/else statement that looks like this:
   
-  <script>
   var myObj = {
   gift: "pony",
   pet: "kitten",
@@ -31,6 +30,6 @@ function checkObj(checkProp) {
 
 // Test your code by modifying these values
 checkObj("gift");
-</script>
+
 
 I'm having a hard time understanding why it understands what checkProp is if it wasn't previously defined. I'm hoping that I'll understand better as I fill in my knowledge with other resources. I've checked to see if checkProp is just standard syntax, but I can't seem to find anything.
